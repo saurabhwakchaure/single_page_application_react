@@ -1,0 +1,99 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.home-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+.home-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.home-section {
+    margin-bottom: 20px;
+}
+
+.home-section h2 {
+    color: #333;
+}
+
+.home-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.App-header {
+    background-color:red;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .website-name {
+    color: lightblue;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left:600px;
+    
+  }
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #007BFF;
+  }
+  li{
+    list-style: none;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders into a single border */
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  table th, table td {
+    border: 5px solid black; /* Border style for table header and data cells */
+    padding: 10px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+  }
+  table th {
+    background-color: pink; /* Background color for table header cells */
+    color: #333; /* Text color for table header cells */
+  }
+  table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate background color for even rows */
+  }
+  table tbody tr:hover {
+    background-color:lightblue; /* Background color on hover for table body rows */
+  }  
